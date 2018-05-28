@@ -24,5 +24,3 @@ GUI for desktops
 4. Queries in the terminal should be of the form Bot.response('YOURQUESTIONS')
 5. Run TelServer and open your terlegram app on your mobile device and search for @DertsBot
 6. You can now use the bot for your queries
-7. To access the cloud database you require MongoDB Compass Community Edition. Connect it to bossdb-w54dc.mongodb.net
-8. Username - user, password - pass check the SRV Record box
