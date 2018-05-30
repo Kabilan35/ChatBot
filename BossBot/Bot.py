@@ -64,12 +64,14 @@ def classify(sentence):
         returnList.append((classes[r[0]], r[1]))
     return returnList
 
-def databas(sentence,respon):
+def databas(sentence,respon,chat_id):
     db.database.insert_one(
         {
         "sentence": sentence,
         "response": respon,
+        "chatid": chat_id
         })
+
 def databa(sentence):
     db.testdatabase.insert_one(
         {
@@ -78,7 +80,7 @@ def databa(sentence):
         })
 
 
-def response(sentence, chatID=0):
+def response(sentence, chatid):
     results = classify(sentence)
     print(results)
     if results:
@@ -86,11 +88,11 @@ def response(sentence, chatID=0):
             for i in contexts['contexts']:
                 if i['tag'] == results[0][0]:
                     if 'contextSet' in i:
-                        context[chatID] = i['contextSet']
+                        context[chatid] = i['contextSet']
 
-                    if not 'contextFilter' in i or (chatID in context and 'contextFilter' in i and i['contextFilter'] == context[chatID]) or "contextCheck" in i:
+                    if not 'contextFilter' in i or (chatid in context and 'contextFilter' in i and i['contextFilter'] == context[chatid]) or "contextCheck" in i:
                         respon = random.choice(i['responses'])
-                        databas(sentence,respon)
+                        databas(sentence,respon,chatid)
                         return respon
                     databa(sentence)
                     return empt
