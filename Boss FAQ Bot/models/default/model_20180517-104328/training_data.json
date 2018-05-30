@@ -1,0 +1,537 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "end"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "great"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "Operating System",
+            "entity": "Information"
+          }
+        ],
+        "text": "What is an Operating System?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "variants of BOSS",
+            "entity": "Information"
+          }
+        ],
+        "text": "What are the variants of BOSS?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "difference betweem BOSS and EduBOSS",
+            "entity": "Information"
+          }
+        ],
+        "text": "What is the difference between desktop and educational versions?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "eduboss",
+            "entity": "extra"
+          }
+        ],
+        "text": "What is eduboss?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "latest version of BOSS",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "What is the latest version of BOSS?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 37,
+            "value": "latest version of EduBOSS",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "What is the latest version of EduBOSS?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "cost",
+            "entity": "Product Information"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "BOSS OS",
+            "entity": "Information"
+          }
+        ],
+        "text": "How much is the cost for BOSS OS?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "get BOSS Linux",
+            "entity": "Link Information"
+          }
+        ],
+        "text": "How to get BOSS Linux?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "download",
+            "entity": "Link Information"
+          }
+        ],
+        "text": "How to download BOSS Linux?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "cd of boss linux",
+            "entity": "extra"
+          }
+        ],
+        "text": "I want a cd of boss linux with newer version , how can i get it?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "free copy/CD/DVD",
+            "entity": "Contact"
+          },
+          {
+            "start": 42,
+            "end": 61,
+            "value": "BOSS 6 Anoop 64-bit",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "I would like to get a free copy/CD/DVD of BOSS 6 Anoop 64-bit?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "IP address",
+            "entity": "Information"
+          }
+        ],
+        "text": "How to find the IP address?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "debian based linux",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "Is BOSS a debian based linux?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "redhat based linux",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "Is BOSS a redhat based linux?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "Microsoft",
+            "entity": "extra"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Office",
+            "entity": "extra"
+          }
+        ],
+        "text": "Does Microsoft Office run in BOSS Linux?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "requirements",
+            "entity": "extra"
+          }
+        ],
+        "text": "What are the minimum requirements for installing BOSS?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "email id",
+            "entity": "Contact"
+          }
+        ],
+        "text": "Is there any email id for sending BOSS queries?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "difference",
+            "entity": "Information"
+          }
+        ],
+        "text": "What is the difference between BOSS and EduBOSS?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "install",
+            "entity": "extra"
+          }
+        ],
+        "text": "How to install BOSS?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "windows",
+            "entity": "extra"
+          }
+        ],
+        "text": "What is the difference between windows and BOSS?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "contact",
+            "entity": "extra"
+          }
+        ],
+        "text": "How can I contact BOSS Support Centre?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 45,
+            "end": 53,
+            "value": "download",
+            "entity": "extra"
+          }
+        ],
+        "text": "I want 32 bit boss os iso file, so how can i download."
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 7,
+            "end": 31,
+            "value": "find the version of BOSS",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "How to find the version of BOSS installed in my PC?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 71,
+            "end": 77,
+            "value": "ferret",
+            "entity": "Information"
+          }
+        ],
+        "text": "I am using BOSS linux in my 32 bit laptop. Now I would like to install ferret. Is it possible? If yes, Please guide to how to install ferret?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "latest version of boss",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "what is the latest version of boss?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "developed",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "who developed BOSS linux?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "32 bit",
+            "entity": "Product Information"
+          },
+          {
+            "start": 45,
+            "end": 53,
+            "value": "download",
+            "entity": "Link Information"
+          }
+        ],
+        "text": "I want 32 bit boss os iso file, so how can i download."
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "boss",
+            "entity": "Information"
+          }
+        ],
+        "text": "what is boss?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "support",
+            "entity": "Product Information"
+          }
+        ],
+        "text": "Does BOSS Linux support windows?"
+      },
+      {
+        "intent": "query",
+        "entities": [
+          {
+            "start": 71,
+            "end": 77,
+            "value": "ferret",
+            "entity": "Information"
+          }
+        ],
+        "text": "I am using BOSS linux in my 32 bit laptop. Now I would like to install ferret. Is it possible? If yes, Please guide to how to install ferret?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "boss",
+            "entity": "extra"
+          }
+        ],
+        "text": "what is boss?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "get boss linux",
+            "entity": "extra"
+          }
+        ],
+        "text": "how to get boss linux?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "developed",
+            "entity": "extra"
+          }
+        ],
+        "text": "who developed boss linux?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "support",
+            "entity": "extra"
+          }
+        ],
+        "text": "Does BOSS Linux support windows?"
+      },
+      {
+        "intent": "xtra",
+        "entities": [
+          {
+            "start": 134,
+            "end": 140,
+            "value": "ferret",
+            "entity": "extra"
+          }
+        ],
+        "text": "I am using BOSS linux in my 32 bit laptop. Now I would like to install ferret. Is it possible? If yes, Please guide to how to install ferret?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
